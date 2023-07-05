@@ -1,0 +1,178 @@
+@import 'inventory';
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: $font;
+}
+body{
+    background-color: white;
+}
+.main{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    height: 100vh;
+.box{
+    background-color: map-get($cartbuggy, darkblue);
+    height: 550px;
+    width: 350px;
+header{
+    padding: 10px 10px;
+.icon{
+    font-family: 'Pacifico', cursive !important;
+    color: #ea629d;
+    letter-spacing: 2px;
+    font-size: 25px
+}
+}
+.menu{
+    @include flexg('center');
+    padding: 20px;
+    height: 75%;
+    flex-wrap: wrap;
+.text{
+    text-align: center;
+.title{
+    color: white;
+    font-size: 35px;
+}
+.besh{
+    font-family: 'Pacifico', cursive !important;
+    color: #ea629d;
+    letter-spacing: 3px;
+    font-size: 35px;
+}
+.lesson{
+    color: white;
+    margin-top: 10px;
+}
+.click{
+    padding: 5px;
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    background-color: #ea629d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.credit{
+    color: white;
+    font-size: 13px;
+    margin-top: 10px;
+
+}
+}
+}
+.about{
+    height: 300px;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+.about-us{
+    font-family: 'Pacifico', cursive !important;
+    color: #ea629d;
+    text-align: center;
+}
+> p{
+    color: white;
+}
+.buttons{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+> button{
+    width: 150px;
+    background-color: #ea629d;
+    color: white;
+    border: none;
+    height: 35px;
+    cursor: pointer;
+}
+}
+}
+.customize{
+    margin-top: 50px;
+    padding-inline: 10px;
+.customi{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+.sticker{
+    margin-inline-start: 20px;
+> label{
+    color: white;
+    font-size: 10px;
+}
+}
+.gender{
+    
+    >label{
+        color: white;
+        font-size: 10px;
+    }
+    }
+}
+.typing{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+> input{
+    background-color: darken($color: white, $amount: 20%);
+    border: none;
+    height: 40px;
+    padding: 10px;
+    caret-color: #ea629d;
+    color: deeppink;
+&::placeholder{
+    color: gray;
+}
+
+}
+>button{
+    width: 130px;
+    margin-inline: auto;
+    margin-top: 5px;
+    background-color: #ea629d;
+    color: white;
+    font-weight: 700;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+}
+    }
+}
+.text-field{
+    margin-top: 10px;
+
+.text-area{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+    padding: 10px;
+    overflow-y: auto;
+    color: white;
+}
+.buttons-2{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+>button{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    background-color: pink;
+    font-weight: 700;
+    border: none;
+
+}
+}
+}
+}
